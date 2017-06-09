@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN" "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+<generatorConfiguration>
+<classPathEntry   location="D:/workspaces/svcmaven/ojdbc14.jar"/>
+  <context id="context1">
+    <jdbcConnection connectionURL="jdbc:oracle:thin:@192.168.0.151:1521:orcl" driverClass="oracle.jdbc.driver.OracleDriver" password="123" userId="test" />
+    <javaModelGenerator targetPackage="net.solooo.template.entity" targetProject="springboot-mybatis" />
+    <sqlMapGenerator targetPackage="mapper.xml" targetProject="springboot-mybatis/src/main/resources" />
+    <javaClientGenerator targetPackage="net.solooo.template.mapper" targetProject="springboot-mybatis" type="XMLMAPPER" />
+    <table tableName="PERSON">
+    </table>
+    <table tableName="COMPANY">
+    </table>
+  </context>
+</generatorConfiguration>

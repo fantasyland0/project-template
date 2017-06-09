@@ -30,10 +30,10 @@ public class SwaggerTwo {
 
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
-                .title("My API")
-                .description("http://solooo.net")
+                .title("人员管理参数")
+                .description("http://localhost:8080")
                 .termsOfServiceUrl("http://localhost:8081")
-                .contact("Eric")
+                .contact("测试")
                 .version("1.0").build();
     }
 }
